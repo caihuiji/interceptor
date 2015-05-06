@@ -43,6 +43,16 @@ module.exports = function (config  ){
     return {
         invoke : function (data){
             invoker(interceptors , data);
+        },
+        add : function (interceotpr){
+            if(_.isArray(config)){
+                interceptors.concat(config);
+            }else {
+                interceptors.push(interceotpr);
+            }
+        },
+        remove : function (index){
+            interceptors.splice(index , 1);
         }
     }
 }
