@@ -19,13 +19,13 @@ var invoker = function (array , data){
         var result = true ;
         value.preProcess && (result = value.preProcess(data));
 
-        if(!result){
+        if(result === false){
             return false;
         }
 
         result = value.process(data);
 
-        if(!result){
+        if(result === false){
             return false;
         }
 

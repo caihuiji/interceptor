@@ -64,10 +64,10 @@ describe('interceptor', function(){
         var processer = [
             {
                 preProcess : function (data){
-                    data.value = 2; return true;
+                    data.value = 2;
                 } ,
                 process : function (){
-                    data.value = 3; return true;
+                    data.value = 3;
                 }
             },
 
@@ -97,7 +97,7 @@ describe('interceptor', function(){
         var processer = [
             {
                 preProcess : function (data){
-                    data.value = 2; return true;
+                    data.value = 2;
                 } ,
                 process : function (){
                     data.value = 3; return true;
@@ -107,7 +107,7 @@ describe('interceptor', function(){
             {
                 preProcess : function (data){
 
-                    data.value = "test"; return true;
+                    data.value = "test";
                 } ,
                 process : function (){
                     data.value = 8; return false;
@@ -139,10 +139,10 @@ describe('interceptor', function(){
         var processer = [
             {
                 preProcess : function (data){
-                    data.value = 2; return true;
+                    data.value = 2;
                 } ,
                 process : function (){
-                    data.value = 3; return true;
+                    data.value = 3;
                 }
             },
 
