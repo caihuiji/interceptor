@@ -1,0 +1,27 @@
+{
+  "name": "interceptor",
+  "version": "0.0.1",
+  "description": "node-interceptor , like springmvc interceptor",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/caihuiji/interceptor.git"
+  },
+  "author": "chriscai",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/caihuiji/interceptor/issues"
+  },
+  "homepage": "https://github.com/caihuiji/interceptor",
+  "dependencies": {
+    "chai": "^2.3.0",
+    "mocha": "^2.2.4",
+    "underscore": "^1.8.3"
+  }
+}
