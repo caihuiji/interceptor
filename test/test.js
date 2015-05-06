@@ -96,19 +96,14 @@ describe('interceptor', function(){
         var data = {value : 1};
         var processer = [
             {
-                preProcess : function (data){
-                    data.value = 2;
-                } ,
+
                 process : function (){
                     data.value = 3; return true;
                 }
             },
 
             {
-                preProcess : function (data){
 
-                    data.value = "test";
-                } ,
                 process : function (){
                     data.value = 8; return false;
                 }
