@@ -1,5 +1,5 @@
 {
-  "name": "interceptor",
+  "name": "c-interceptor",
   "version": "0.0.1",
   "description": "node-interceptor , like springmvc interceptor",
   "main": "index.js",
