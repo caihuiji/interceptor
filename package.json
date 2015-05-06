@@ -1,6 +1,6 @@
 {
   "name": "c-interceptor",
-  "version": "0.0.1",
+  "version": "1.0.2",
   "description": "node-interceptor , like springmvc interceptor",
   "main": "index.js",
   "directories": {
